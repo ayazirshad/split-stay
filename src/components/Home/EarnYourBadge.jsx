@@ -28,7 +28,7 @@ const EarnYourBadge = () => {
     },
   ];
   return (
-    <div className="w-full min-h-screen overflow-hidden relative py-24">
+    <div className="w-full min-h-screen overflow-hidden relative py-24 md:py-0">
       <div className="absolute top-0 left-0 w-full h-full -z-10">
         <Image
           src={background}
@@ -37,7 +37,7 @@ const EarnYourBadge = () => {
         />
       </div>
       <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-black/10 -z-10"></div>
-      <div className="h-full w-full flex justify-center items-center z-10">
+      <div className="min-h-screen w-full flex justify-center items-center z-10">
         <div className="md:max-w-[90%] flex flex-col gap-10 mt-10 items-center select-none px-5 sm:px-8 md:px-14 lg:px-24 ">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center ">
             Earn your badge. Join the SplitStay movement.
